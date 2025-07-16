@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sandeep Kothuri | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #f3f4f6;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 1rem;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #58a6ff;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1.5rem;
+    }
+    nav a {
+      color: #f3f4f6;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #58a6ff;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 900px;
+      margin: auto;
+      animation: slideUp 1s ease-in-out;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #93c5fd;
+    }
+    ul {
+      margin-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.75rem;
+    }
+    .button {
+      background: #58a6ff;
+      color: #0d1117;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .button:hover {
+      background: #79c0ff;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: rgba(0, 0, 0, 0.4);
+      font-size: 0.9rem;
+      color: #cbd5e1;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sandeep Chakravarthy Kothuri</h1>
+    <p>Information Systems Graduate • Data Analyst • Aspiring UI/UX Designer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a graduate in Information Systems from CSULB with a passion for data storytelling and visual design. I build engaging user experiences and derive actionable insights using modern tools and clean aesthetics.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python, SQL, HTML5, CSS3</li>
+      <li><strong>Design & Tools:</strong> Figma, Excel, Bootstrap, Django</li>
+      <li><strong>Analytics:</strong> Tableau, Power BI, MySQL</li>
+      <li><strong>Certifications:</strong> Microsoft, AWS, IBM, HackerRank</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Soluna Social:</strong> Ethical AI content moderation framework</li>
+      <li><strong>Medi Match:</strong> Healthcare database workflow optimization</li>
+      <li><strong>YouTube Study:</strong> Monetization analysis using regression</li>
+      <li><strong>Tiny Thinkers:</strong> Gamified UI/UX for early math learners</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education & Leadership</h2>
+    <ul>
+      <li>MS in Information Systems – CSULB, 2025</li>
+      <li>B.Tech in Computer Science – SRM University AP, 2023</li>
+      <li>Photography Club Vice-Chair • DIG & 22 West Media Volunteer</li>
+    </ul>
+    <br>
+    <a class="button" href="Sandeep_kothuri_Analyst_Resume.pdf" download>Download Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:ksandy.c16@gmail.com">ksandy.c16@gmail.com</a></p>
+    <p>Phone: (562) 391-7823</p>
+    <p><a href="https://linkedin.com/in/sandeep-kothuri-9b99142b6" target="_blank">LinkedIn</a> | <a href="https://github.com/sandeepkothuri" target="_blank">GitHub</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Sandeep Kothuri • Designed with ✨ passion for analytics & UX • GitHub Pages
+  </footer>
+</body>
+</html>
